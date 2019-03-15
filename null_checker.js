@@ -8,63 +8,24 @@ In this task we assume that the input is always a number.
 Save the file as null_checker in the same folder that you saved yesterday's work 
 */
 
-// console.log("my favorite number is 7") // This for the user to see what is happening
+// Pseudo code
 
-// var mynumber = 7;  // initialise the number to seven why? it is my favorite number
+/*
+1. Define a an arrow function that takes in one number as an argument
+2. Print the number out
+3. Test the number for the given three alternatives, print the required block if the code block evaluates to true
+*/
 
-// if (mynumber>0) 
-
-// 	{
-	
-// 	console.log(1 +"-----this means My favorite number is greator than zero"); //Execute this block if my number is grater than 0
-// 	}
-
-// 	else if (mynumber<0)
-// 	{
-// 	console.log (-1 +"-----this means My favorite number is less than zero") //Execute this block if my number is less than 0
-// 	}
-
-// 	else
-// 	{
-// 		console.log(0 +"-----this means My favorite number is equal to zero");  //and this block if my number is equal to zero
-// 	}
-
-	// create a function and initialise it with a cariable
-	// test the number for less than, grator than or equal to zero
-
-
-// function test_number(mynumber) {  // define the function that will hold the number
-
-// if (mynumber>0) 
-
-// 	{
-	
-// 	console.log(1 +"-----this means My favorite number is greator than zero"); //Execute this block if my number is grater than 0
-// 	}
-
-// 	else if (mynumber<0)
-// 	{
-// 	console.log (-1 +"-----this means My favorite number is less than zero") //Execute this block if my number is less than 0
-// 	}
-
-// 	else
-// 	{
-// 		console.log(0 +"-----this means My favorite number is equal to zero");  //and this block if my number is equal to zero
-// 	}
-// }
-
-// test_number(7);
-
-//arrow function
 
 test_number=(mynumber) => { 
- 
+
+ 	console.log("my favorite number is " + mynumber)
 
 	if (mynumber>0) 
 
 
 	{
-	
+
 	console.log(1 +"-----this means My favorite number is greator than zero"); //Execute this block if my number is grater than 0
 	}
 
