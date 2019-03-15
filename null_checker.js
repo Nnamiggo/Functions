@@ -17,7 +17,7 @@ Save the file as null_checker in the same folder that you saved yesterday's work
 */
 
 
-test_number=(mynumber) => { 
+const test_number=(mynumber) => { 
 
  	console.log("my favorite number is " + mynumber)
 
