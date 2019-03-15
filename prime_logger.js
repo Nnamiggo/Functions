@@ -20,16 +20,37 @@ for(var i = 0; i<=my_num; i++)
 	
 }  */
 
-var n = 40;
-for (var i = 2; i<=n; i++)
-{
-	var are_you_prime = true;
+// var n = 40;
+// for (var i = 2; i<=n; i++)
+// {
+// 	var are_you_prime = true;
 	
-	for(var test_u =2; test_u<=i; test_u++)
-	{
-		if(i%test_u === 0 && test_u!==i )
-			{are_you_prime = false;}
-		}
+// 	for(var test_u =2; test_u<=i; test_u++)
+// 	{
+// 		if(i%test_u === 0 && test_u!==i )
+// 			{are_you_prime = false;}
+// 		}
 
-			if (are_you_prime===true) {console.log(i);}
+// 			if (are_you_prime===true) {console.log(i);}
+// }
+
+// changing code to use functions
+
+function prime_number_calculator (n)
+{
+	for (var i =2; i<=n; i++)
+	{
+		var are_you_prime = true;
+
+				for (var testing_u = 2; testing_u<=i; testing_u++)
+				{
+					if (i%testing_u==0 && testing_u!==i)
+					{
+						are_you_prime =false;
+					}
+					
+				}
+				if (are_you_prime==true ){console.log(i);}
+	}
 }
+prime_number_calculator(40)
