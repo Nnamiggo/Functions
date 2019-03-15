@@ -36,8 +36,28 @@ for(var i = 0; i<=my_num; i++)
 
 // changing code to use functions
 
-function prime_number_calculator (n)
-{
+// function prime_number_calculator (n)
+// {
+// 	for (var i =2; i<=n; i++)
+// 	{
+// 		var are_you_prime = true;
+
+// 				for (var testing_u = 2; testing_u<=i; testing_u++)
+// 				{
+// 					if (i%testing_u==0 && testing_u!==i)
+// 					{
+// 						are_you_prime =false;
+// 					}
+					
+// 				}
+// 				if (are_you_prime==true ){console.log(i);}
+// 	}
+// }
+// prime_number_calculator(40)
+
+//____________Now using arrow function
+
+prime_number_calculator=(n) => {
 	for (var i =2; i<=n; i++)
 	{
 		var are_you_prime = true;
