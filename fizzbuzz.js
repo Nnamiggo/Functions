@@ -7,7 +7,7 @@ But for multiples of three, print "Fizz"instead of the number, and for the multi
 For numbers which are multiples of both three and five, print "FizzBuzz".
 */
 
-function fizzbuzz(x,y) {
+fizzbuzz=(x,y) => {
 
 for (var i =x; i<=y; i++) {
 
