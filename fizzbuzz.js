@@ -7,22 +7,25 @@ But for multiples of three, print "Fizz"instead of the number, and for the multi
 For numbers which are multiples of both three and five, print "FizzBuzz".
 */
 
+function fizzbuzz(x,y) {
 
-for (var x =0; x<=100; x++) {
+for (var i =x; i<=y; i++) {
 
-if (x%3===0 && x%5===0){
+if (i%3===0 && i%5===0){
   console.log("FizzBuzz");
 }
 
-else if (x%3===0) {
+else if (i%3===0) {
   console.log("Fizz");
 }
 
-else if (x%5===0){
+else if (i%5===0){
   console.log("Buzz");
 }
 else{
-  console.log(x);
+  console.log(i);
 }
 
 }
+}
+fizzbuzz(1,100)
