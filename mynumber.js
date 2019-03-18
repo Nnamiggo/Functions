@@ -40,19 +40,19 @@ if (x>0)
 	{
 	
 	test = (1 +"-----this means My favorite number is greator than zero"); //Execute this block if my number is grater than 0
-	return test;
+	
 	}
 
 	else if (x<0)
 	{
-	test =(-1 +"-----this means My favorite number is less than zero") //Execute this block if my number is less than 0
-	 return test;
+	test = (-1 +"-----this means My favorite number is less than zero") //Execute this block if my number is less than 0
+	
 	}
 
 	else
 	{
-		test=(0 +"-----this means My favorite number is equal to zero");  //and this block if my number is equal to zero
-		 return test;
+		test=( 0 +"-----this means My favorite number is equal to zero");  //and this block if my number is equal to zero
+		 
 	}
 	
 	console.log(test);
